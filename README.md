@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://uvarajand.github.io/Frontend-Mentor-Results-summary-component/](https://uvarajand.github.io/Frontend-Mentor-Results-summary-component/)
+- Solution URL: [https://uvarajand.github.io/Frontend-Mentor-Results-summary-component](https://github.com/UVARAJAND/Frontend-Mentor-Results-summary-component)
 - Live Site URL: [https://uvarajand.github.io/Frontend-Mentor-Results-summary-component/](https://uvarajand.github.io/Frontend-Mentor-Results-summary-component/)
 
 ### Built with
