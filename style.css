@@ -472,6 +472,241 @@ body{
         background:hsl(241, 81%, 54%);
       }
     }
+@media  screen and (max-width:426px) {
+        body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          /* height:100vh; */
+        }
+        .container{
+          height:fit-content;
+          width: 375px;
+          margin-top: -60px;
+          margin-left: -20px;
+          margin-right: -20px;
+          border-radius: 30px;
+          flex-direction: column;
+          box-shadow: 10px 10px 20px hsla(241, 100%, 89%,30%);
+        }
+        .result{
+          display:flex;
+          flex-direction: column;
+          background:linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+          height:400px;
+          margin-top: 20px;
+          width:100%;
+          border-bottom-left-radius: 40px;
+          border-bottom-right-radius: 40px;
+        }
+        .text_1{
+          text-align: center;
+          width:100%;
+          margin-top: 50px;
+        }
+        .text_yourresult{
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-size: 18px;
+          opacity:0.6;
+          color:white;
+        }
+        .circle_center{
+          display:flex;
+          justify-content: center;
+        }
+        .circle{
+          display:flex;
+          justify-content: center;
+          margin-top: 10px;
+          /* align-items: center; */
+          flex-direction: column;
+          width:130px;
+          height:130px;
+          border-radius: 50%;
+          background:linear-gradient(180deg,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+        }
+        .marks{
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-weight: bolder;
+          color:white;
+          font-size: 50px;
+        }
+        .total_marks{
+          color:white;
+          font-size: 13px;
+          opacity:0.4;
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 100;
+          word-spacing: 5px;
+        }
+        .great{
+          margin-top: 20px;
+          width:100%;
+          text-align: center;
+        }
+        .great_text{
+          color:white;
+          font-size: 25px;
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+        }
+        .content_center{
+          display:flex;
+          justify-content: center;
+          margin-top: 10px;
+        }
+        .content_contain{
+          text-align: center;
+          width:80%;
+          margin-bottom: 50px;
+        }
+        .content{
+          color:white;
+          opacity: 0.6;
+          font-size: 15px;
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 900;
+        }
+        .summary{
+          display:flex;
+          background:hsl(0, 0%, 100%);
+          justify-content: center;
+          height:100%;
+          width:100%;
+          border-radius: 30px;
+        }
+        .contain_summary{
+          width:90%;
+          height: 90%;
+          margin:20px;
+          margin-top: 20px;
+          margin-left: 30px;
+        }
+        .summary_text{
+          font-size: 18px;
+          font-weight: 100;
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+        }
+        .box_reaction{
+          display:flex;
+          align-items: center;
+          width:100%;
+          height:50px;
+          background:hsla(0, 100%, 67%, 10%) ;
+          margin-top: 10px;
+          border-radius: 10px;
+        }
+        .box_memory{
+          display: flex;
+          align-items: center;
+          width:100%;
+          height:50px;
+          background: hsla(39, 100%, 56%,10%);
+          margin-top: 20px;
+          border-radius: 10px;
+        }
+        .box_verbal{
+          display: flex;
+          align-items: center;
+          width:100%;
+          height:50px;
+          background:hsla(166, 100%, 37%,10%);
+          margin-top: 20px;
+          border-radius: 10px;
+        }
+        .box_visual{
+          display: flex;
+          align-items: center;
+          width:100%;
+          height:50px;
+          background:hsla(234, 85%, 45%,10%);
+          margin-top: 20px;
+          border-radius: 10px;
+        }
+        svg{
+          margin-left: 15px;
+        }
+        .reaction_text_box{
+          width:50%;
+          margin-left: 10px;
+          color:hsl(0, 100%, 67%);
+          font-size: 13px;
+          font-weight: 100;
+          font-family: 'Poppins', sans-serif;
+          font-weight: lighter;
+          /* opacity:0.7; */
+        }
+        .memory_text_box{
+          width:50%;
+          margin-left: 10px;
+          color:hsl(39, 100%, 56%);
+          font-size: 13px;
+          font-weight: 100;
+          font-family: 'Poppins', sans-serif;
+          font-weight: lighter;
+          /* opacity:0.7; */
+        }
+        .verbal_text_box{
+          width:50%;
+          margin-left: 10px;
+          color:hsl(166, 100%, 37%);
+          font-size: 13px;
+          font-weight: 100;
+          font-family: 'Poppins', sans-serif;
+          font-weight: lighter;
+          /* opacity:0.7; */
+        }
+        .vision_text_box{
+          width:50%;
+          margin-left: 10px;
+          color:hsl(234, 85%, 45%);
+          font-size: 13px;
+          font-weight: 100;
+          font-family: 'Poppins', sans-serif;
+          font-weight: lighter;
+          /* opacity:0.7; */
+        }
+        
+        .box_mark{
+          color:black;
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-size: 15px;
+          opacity:0.8;
+        }
+        .total{
+          opacity:0.5;
+        }
+        .button_submit{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+          height:60px;
+          margin-top: 10px;
+          border-radius: 30px;
+        }
+        button{
+          margin-top: 15px;
+          font-family: 'Bruno Ace', cursive;
+          font-family: 'Poppins', sans-serif;
+          height:80%;
+          font-size: 15px;
+          width:100%;
+          background:hsl(224, 30%, 27%);
+          border-radius: 30px;
+          color:white;
+        }
+        button:hover{
+          cursor:pointer;
+          background:hsl(241, 81%, 54%);
+        }
+}
     
     
       
