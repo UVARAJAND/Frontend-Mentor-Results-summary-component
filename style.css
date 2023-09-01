@@ -472,7 +472,7 @@ body{
         background:hsl(241, 81%, 54%);
       }
     }
-@media  screen and (max-width:426px) {
+    @media  screen and (max-width:426px) {
         body{
           display: flex;
           justify-content: center;
@@ -706,7 +706,7 @@ body{
           cursor:pointer;
           background:hsl(241, 81%, 54%);
         }
-}
+    }
     
     
       
